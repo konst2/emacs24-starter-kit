@@ -141,3 +141,4 @@
 (global-unset-key (kbd "s-w"))
 (global-set-key (kbd "s-w") 'other-window)
 
+;; C-s и C-r привязаны к поиску по регэкспу вперёд и назад. C-M-s и C-M-r ищут просто текст, без регекспов
