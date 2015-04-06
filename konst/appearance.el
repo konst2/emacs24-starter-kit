@@ -11,4 +11,4 @@
 ;; C–, C-+ и C-= уменьшают и увеличивают размер шрифта в буфере.
 
 ;; отключаем scrool-bar
-(scroll-bar-mode nil)
+(scroll-bar-mode -1)
