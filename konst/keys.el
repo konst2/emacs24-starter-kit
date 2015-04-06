@@ -92,6 +92,9 @@
 (setq bs-configurations
       '(("files" "^\\*scratch\\*" nil nil bs-visits-non-file bs-sort-buffer-interns-are-last)))
 (global-set-key (kbd "M-b") 'bs-show)
+; list all buffers
+(global-unset-key (kbd "C-b"))
+(global-set-key (kbd "C-b") 'list-buffers) 
 
 ;; move by buffers
 ;; next buffer
