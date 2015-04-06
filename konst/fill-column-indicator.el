@@ -928,5 +928,5 @@ rough heuristic.)"
 
 (setq fci-rule-width 1)
 (setq fci-rule-color "#555555")
-
+(setq fci-rule-column 120)
 (add-hook 'python-mode-hook 'fci-mode)
