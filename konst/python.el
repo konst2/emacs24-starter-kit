@@ -2,6 +2,7 @@
 ; установка jedi - pip install rope_py3k
 ; pyflake  -- pip install pyflake
 ; pyvenv-workon
+; jedi:install-server -- in virtual env 1st time
 
 (starter-kit-load "python")
 
