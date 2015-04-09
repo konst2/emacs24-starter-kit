@@ -17,7 +17,7 @@ version 2014-10-28"
           `(
             ;("php" . "php")
             ("pl" . "perl")
-            ("py" . "python")
+            ("py" . "python3")
             ;("py3" . ,(if (string-equal system-type "windows-nt") "c:/Python32/python.exe" "python3"))
             ;("rb" . "ruby")
             ("js" . "node") ; node.js
