@@ -1,0 +1,4 @@
+((nil ;; This applies these settings regardless of major mode
+    (pyvenv-workon "emacs")
+))
+

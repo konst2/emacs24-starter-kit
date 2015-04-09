@@ -1,0 +1,19 @@
+установка нового venv для Python3:
+
+по умолчанию ставятся в директории ~/.virtualenvs
+
+пример установки с наванием inwork24
+
+если еще не установлено:
+sudo apt-get install python-yaml
+
+virtualenv --python=/usr/bin/python3.4 ~/.virtualenvs/inwork24
+cd ~/.virtualenvs/inwork24/bin
+source activate
+pip install rope_py3k
+pip install pyflake
+pip install pdb
+pip install pudb
+
+
+
