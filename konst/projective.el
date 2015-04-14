@@ -1,5 +1,5 @@
 ;; работа с проектами
-(starter-kit-install-if-needed 'grizzl 'projectile 'project-explorer)
+(starter-kit-install-if-needed 'grizzl 'projectile 'neotree)
 
 (projectile-global-mode)
 ; открываем файлы через grizzl
@@ -18,8 +18,15 @@
 (global-set-key (kbd "M-S-<f7>") 'projectile-grep)
 
 ; project-explorer (from melpa repo)
+; пока удалён и закоментирован
 ; this for project root from projectile in project explorer
-(setq pe/project-root-function 'projectile-project-root)
-(global-set-key (kbd "<f12>") 'project-explorer-toggle)
+;(setq pe/project-root-function 'projectile-project-root)
+;(global-set-key (kbd "<f12>") 'project-explorer-toggle)
 ; открываем project-explorer при входе в проект через projectile
-(setq projectile-switch-project-action 'project-explorer-toggle)
+;(setq projectile-switch-project-action 'project-explorer-toggle)
+
+; neotree
+(global-set-key (kbd "<f12>") 'neotree-toggle)
+; открываем project-explorer при входе в проект через projectile
+(setq projectile-switch-project-action 'neotree-projectile-action)
+
