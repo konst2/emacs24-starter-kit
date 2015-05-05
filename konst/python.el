@@ -7,7 +7,7 @@
 (starter-kit-load "python")
 
 ; jedi  + pyvenv
-(starter-kit-install-if-needed 'jedi 'pyvenv 'flycheck 'flycheck-pyflakes 'pony-mode)
+(starter-kit-install-if-needed 'jedi 'pyvenv 'flycheck 'flycheck-pyflakes)
 
 (pyvenv-mode 1)
 
