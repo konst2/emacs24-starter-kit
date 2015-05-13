@@ -1,6 +1,8 @@
 ; для включения:
-; установка jedi - pip install rope_py3k
+; установка jedi
+; rope  - pip install rope_py3k
 ; pyflake  -- pip install pyflake
+; jedi  -- pip install jedi
 ; pyvenv-workon
 ; jedi:install-server -- in virtual env 1st time
 

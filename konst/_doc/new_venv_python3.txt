@@ -12,6 +12,7 @@ cd ~/.virtualenvs/inwork24/bin
 source activate
 pip install rope_py3k
 pip install pyflake
+pip install jedi
 pip install pdb
 pip install pudb
 
