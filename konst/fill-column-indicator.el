@@ -925,7 +925,7 @@ rough heuristic.)"
 
 
 ;;; custom settings
-
+(set-default 'truncate-lines t)
 (setq fci-rule-width 1)
 (setq fci-rule-color "#555555")
 (setq fci-rule-column 120)
