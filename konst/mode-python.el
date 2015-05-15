@@ -3,8 +3,15 @@
 ; rope  - pip install rope_py3k
 ; pyflake  -- pip install pyflake
 ; jedi  -- pip install jedi
+; pip install epc
+; pip install argparse
+
 ; pyvenv-workon
-; jedi:install-server -- in virtual env 1st time
+; jedi:install-server -- in virtual env 1st time - но для правильной работы лучше
+; 
+; из venv - pip install -U PATH/TO/EMACS-JEDI/
+; (setq jedi:server-command '("PATH/TO/jediepcserver.py"))
+
 
 (starter-kit-load "python")
 
