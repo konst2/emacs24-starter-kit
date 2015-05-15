@@ -18,6 +18,7 @@
 (add-hook 'python-mode-hook 'jedi:ac-setup)
 (add-hook 'python-mode-hook 'jedi:setup)
 (add-hook 'python-mode-hook 'auto-complete-mode)
+(setq jedi:complete-on-dot t) 
 
 ;; pyflake
 (require 'flycheck-pyflakes)
