@@ -10,7 +10,10 @@
 ; jedi:install-server -- in virtual env 1st time - но для правильной работы лучше
 ; 
 ; из venv - pip install -U PATH/TO/EMACS-JEDI/
+;  пример --- pip install -U ~/.emacs.d/elpa/jedi-core-20150510.2157/
+; чтобы сервер запустился -- 
 ; (setq jedi:server-command '("PATH/TO/jediepcserver.py"))
+; пример --- (setq jedi:server-command '("~/.virtualenvs/inwork24/bin/jediepcserver"))
 
 
 (starter-kit-load "python")
